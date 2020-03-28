@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Sat Mar 28 2020 10:26:00 GMT-0300 (Brasilia Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Controller/HomeController.cs
+* Startup.cs
+* Views/Home/Sobre.cshtml
+* primeiroapp.csproj
+
+
+Created files:
+* .autogit/autogit.json
+* Models/BancoDBContext.cs
+* banconovo.db
+
+
+Deleted files:
+
+
+Renamed files:
