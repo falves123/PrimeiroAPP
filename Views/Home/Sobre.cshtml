@@ -1,3 +1,27 @@
+@model List<primeiroapp.models.Produto>
 
-<h1>Sobre</h1>
-<p>Tudo sempre Fabiano</p>
+
+<h1>Produto</h1>
+<p>Total de Produto : @Model.Count()</p>
+
+<table>
+    <thead>
+
+        <th>ID</th>
+        <th>Descricao</th>
+        <th>Data do Cadastro</th>
+        
+    </thead>
+    <tbody>
+        @foreach (var produto in Model)
+        {
+            <tr>
+                <td>@produto.ProdutoID</td>
+                <td>@produto.Descricao</td>
+                <td>@produto.DataCadastro</td>
+            </tr>
+            
+        }
+    </tbody>
+
+</table>
