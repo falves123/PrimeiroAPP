@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sat Mar 28 2020 20:01:17 GMT-0300 (Brasilia Standard Time)
+------------------------------------------------------
+
+Modified files:
+* banconovo.db
+
+
+Created files:
+* .autogit/logs/log-28-2-2020-10-56-11.txt
+
+
+Deleted files:
+
+
+Renamed files:

@@ -1,0 +1,14 @@
+{
+  "name": "primeiroapp",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "http://www.primeiroapp.com.br",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
