@@ -24,17 +24,24 @@ namespace primeiroapp{
           return View(produto);
         }
         [HttpGet]
-        public IActionResult Cadastrar(){
-
+        public IActionResult Cadastrar()
+        {
             return View();
-
         }
 
         [HttpPost]
-        public IActionResult Cadastrar(Produto modelo){
+        public IActionResult Cadastrar(Produto modelo)
+        {
+            if(modelo != null)
+            {
+                modelo.DataCadastro = System.DateTime.Now;
 
+                this.Banco.Add(modelo);
+                this.Banco.SaveChanges();
+                return RedirectToAction("index");
+
+            }
             return View(modelo);
-
         }
         public IActionResult Excluir(int id )
         {
@@ -47,6 +54,11 @@ namespace primeiroapp{
           return View(produto);
 
         }
+         override protected void Dispose(bool disposing){
+             if(disposing){
+                 this.Banco.Dispose();
+             }
+         }
     }
 
 }

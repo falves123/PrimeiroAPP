@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Sun Mar 29 2020 17:40:34 GMT-0300 (Brasilia Standard Time)
+------------------------------------------------------
+
+Modified files:
+* Controller/ProdutosController.cs
+* Views/Produtos/Cadastrar.cshtml
+* banconovo.db
+
+
+Created files:
+* .autogit/logs/log-29-2-2020-17-10-26.txt
+
+
+Deleted files:
+
+
+Renamed files:

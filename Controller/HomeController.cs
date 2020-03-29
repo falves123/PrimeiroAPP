@@ -13,15 +13,18 @@ namespace primeiroapp
         {
             this.Banco = banco;
         }
-        public IActionResult index(){
-
+        public IActionResult index()
+        {
+            /*
             this.Banco.Produtos.Add(new Produto{ Descricao = "Bola de Futebol", DataCadastro = DateTime.Now });
             
             this.Banco.SaveChanges();
+*/
             return View(new HomeViewModel{
                 Mensagem = $"Bem Vindo from Controller, Quantidade de produto: {this.Banco.Produtos.Count()}"
                 });
-        } 
+    
+        }   
         public IActionResult Sobre(){
             return View(this.Banco.Produtos.ToList());
         } 
