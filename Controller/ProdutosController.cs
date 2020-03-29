@@ -23,6 +23,12 @@ namespace primeiroapp{
 
           return View(produto);
         }
+        [HttpPost]
+        public IActionResult Cadastrar(Produto modelo){
+
+            return View(modelo);
+
+        }
         public IActionResult Excluir(int id )
         {
 
