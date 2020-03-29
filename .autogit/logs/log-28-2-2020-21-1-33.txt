@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Sat Mar 28 2020 21:01:33 GMT-0300 (Brasilia Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .gitignore
+* Views/Home/Sobre.cshtml
+* Views/Shared/_Layout.cshtml
+* banconovo.db
+* bower.json
+
+
+Created files:
+* .autogit/logs/log-28-2-2020-20-31-24.txt
+* .bowerrc
+
+
+Deleted files:
+
+
+Renamed files:

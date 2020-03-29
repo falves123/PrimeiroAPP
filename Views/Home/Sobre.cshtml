@@ -10,6 +10,7 @@
         <th>ID</th>
         <th>Descricao</th>
         <th>Data do Cadastro</th>
+        <th></th>
         
     </thead>
     <tbody>
@@ -19,7 +20,13 @@
                 <td>@produto.ProdutoID</td>
                 <td>@produto.Descricao</td>
                 <td>@produto.DataCadastro</td>
-                <td><</td>
+                <td>
+                    <div class="btn-group">
+                        <a class="btn btn-success">Editar</a>
+                        <a class="btn btn-danger">Excluir</a>
+                    </div>
+ 
+                </td>
             </tr>
             
         }
