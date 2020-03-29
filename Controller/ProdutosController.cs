@@ -23,6 +23,13 @@ namespace primeiroapp{
 
           return View(produto);
         }
+        [HttpGet]
+        public IActionResult Cadastrar(){
+
+            return View();
+
+        }
+
         [HttpPost]
         public IActionResult Cadastrar(Produto modelo){
 
