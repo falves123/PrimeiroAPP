@@ -17,13 +17,22 @@ namespace primeiroapp{
         public IActionResult Editar(int id)
         {
           var produto = this.Banco.Produtos.FirstOrDefault(_=>_.ProdutoID == id);
-          if(Produto == null){
+          if(produto == null){
               return NotFound();
           }
+
+          return View(produto);
         }
-        public IActionResult Excluir()
+        public IActionResult Excluir(int id )
         {
-            
+
+          var produto = this.Banco.Produtos.FirstOrDefault(_=>_.ProdutoID == id);
+          if(produto == null){
+              return NotFound();
+          }
+
+          return View(produto);
+
         }
     }
 

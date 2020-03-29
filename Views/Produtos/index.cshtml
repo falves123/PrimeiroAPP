@@ -1,0 +1,35 @@
+@model List<primeiroapp.models.Produto>
+
+
+<h1>Produto</h1>
+<p>Total de Produto : @Model.Count()</p>
+
+<table class="table table-hover">
+    <thead>
+
+        <th>ID</th>
+        <th>Descricao</th>
+        <th>Data do Cadastro</th>
+        <th></th>
+        
+    </thead>
+    <tbody>
+        @foreach (var produto in Model)
+        {
+            <tr>
+                <td>@produto.ProdutoID</td>
+                <td>@produto.Descricao</td>
+                <td>@produto.DataCadastro</td>
+                <td>
+                    <div class="btn-group">
+                        <a href="/Produtos/Editar/@produto.ProdutoID"class="btn btn-success">Editar</a>
+                        <a class="btn btn-danger">Excluir</a>
+                    </div>
+ 
+                </td>
+            </tr>
+            
+        }
+    </tbody>
+
+</table>
