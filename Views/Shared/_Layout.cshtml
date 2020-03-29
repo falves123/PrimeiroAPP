@@ -1,14 +1,31 @@
 <html>
     <head>
         <title>Aulas Asp Net MAC</title>
+
+        <link rel="stylesheet" type"text/css" href="/components/bootstrap/dist/css/bootstrap.css"/>
     </head>
     <body>
-        <ul>
-            <li><a href="/Home/Index">Home</a></li>
-            <li><a href="/Home/Contato">Contato</a></li>
-            <li><a href="/Home/Sobre">Sobre</a></li>
-        </ul>
-        <div>
+        <div class="container"> 
+   
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Primeiro APP </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item ">
+               <a class="nav-link" href="/Home/Index">Home</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="/Home/Contato">Contato</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="/Home/Sobre">Sobre</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
             @RenderBody()
         </div>
     </body>

@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Sat Mar 28 2020 20:31:24 GMT-0300 (Brasilia Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .gitignore
+
+
+Created files:
+* .autogit/logs/log-28-2-2020-20-1-17.txt
+* bower.json
+
+
+Deleted files:
+
+
+Renamed files:
